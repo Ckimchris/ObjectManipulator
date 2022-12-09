@@ -38,3 +38,13 @@ Reset
 ![image](https://user-images.githubusercontent.com/10134730/206638336-8a30cb9b-992d-4aeb-a182-60e552f6f383.png)
 
 If at anytime you would like to reset the manipulatable object to zero, press the reset button on the bottom right. It will reset the scene
+
+Instructions for Unity Project
+
+If you would like to examine the contents of the project and scene itself. Ensure you are opening the project with 2020.3.42f1. Inside the scenes folder you will find the main scene SampleScene.
+
+The main game object is ObjectManipulator and attached to it is a Controller script. The Controller script has public references to the target mesh, in this case the cube, and the different triangle, sphere, and rings used for the gimbal controls or prism, sphere, and rotate respectively. The Controller script has functions that it uses to serve the rotation, translation, and scale manipulation by subscribing them to events that come from the MouseMoveX and MouseMoveY scripts.
+
+MouseMoveX and MouseMoveY
+Each control game object has a MouseMoveX or MouseMoveY script attached to them, depending on the interaction. Each of these scripts create an event and call them when the OnMouseDrag method is raised. The scripts will then communicate the event out to the Controller script.
+
