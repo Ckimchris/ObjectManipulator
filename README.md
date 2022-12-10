@@ -23,7 +23,7 @@ The rings represent rotation gimbal controls. With the primary mouse button, cli
 
 Translation
 
-![image](https://user-images.githubusercontent.com/10134730/206637964-5adc2442-52f0-4346-ae2f-61c8681a7b38.png)
+![image](https://user-images.githubusercontent.com/10134730/206874391-f22d80e0-4551-4fb3-9413-9b59c1f019b4.png)
 
 The triangle gameobjects represent controls to translate the object with mouse controls. With the primary mouse button, click and hold on any of the three triangle game objects. Moving left to right with the mouse while performing a hold click on the left most triangle will move the object left to right. Moving up to down with the mouse while performing a hold click on the top most triangle will move the object up and down. Moving up to down with the mouse while performing a hold click on the bottom most triangle will move the object forward to back. 
 
