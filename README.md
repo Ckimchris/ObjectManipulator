@@ -17,7 +17,7 @@ The provided build will start the demo in windowed mode.
 
 Rotation
 
-![image](https://user-images.githubusercontent.com/10134730/206637469-031bcfec-f5f2-45b0-80a0-571334068d67.png)
+![image](https://user-images.githubusercontent.com/10134730/206874346-affa474b-31e9-4ce4-abdd-e8935a599edb.png)
 
 The rings represent rotation gimbal controls. With the primary mouse button, click and hold any one of the three ring game object to begin the rotation function. With the innermost ring, moving the mouse up or down will cause the cube gameobject to rotate along its X-axis. In the centermost ring, moving the mouse left or right will cause the cube to rotate along its Y-axis. With the outermost ring, moving the mouse left or right will cause the cube to rotate along its Z-Axis.
 
